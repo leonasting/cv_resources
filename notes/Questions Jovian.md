@@ -58,7 +58,7 @@ Compared to the RGB color space, which combines all three components (red, green
 In our solution, by converting the image to the HSV color space, we can easily define the lower and upper boundaries for the red color range and create an appropriate mask to identify the red objects in the image.
 
 
-2.
+2. Implement a convolutional neural network (CNN) in PyTorch for image classification. Assume that the input images are grayscale with dimensions 28x28 pixels and there are 10 classes to classify. Your network should consist of two convolutional layers followed by two fully connected layers. Use ReLU activation function for the hidden layers and softmax function for the output layer. Please write the code for this CNN model.
 
 ```
 import torch
