@@ -1,0 +1,57 @@
+# Imports
+import torch
+import torchvision
+import torchvision.transforms as transforms
+import matplotlib.pyplot as plt
+import torch.nn as nn
+
+from torchvision.datasets import MNIST
+from torch.utils.data import random_split
+from torch.utils.data import DataLoader
+import torch.nn.functional as F
+
+# MNIST dataset (images and labels)
+dataset = MNIST(root='data/', 
+                train=True, # train= False for test
+                transform=transforms.ToTensor())
+				
+train_ds, val_ds = random_split(dataset, [50000, 10000])
+len(train_ds), len(val_ds)
+batch_size = 128
+train_loader = DataLoader(train_ds, batch_size, shuffle=True)
+val_loader = DataLoader(val_ds, batch_size)
+# basic
+input_size = 28*28
+num_classes = 10
+# Logistic regression model
+model = nn.Linear(input_size, num_classes)
+for images, labels in train_loader:
+    print(labels)
+    print(images.shape)
+    images2=images.reshape(128, 784)
+    outputs = model(images2)
+    print(outputs)
+    break
+
+# Apply softmax for each output row
+probs = F.softmax(outputs, dim=1)
+max_probs, preds = torch.max(probs, dim=1)
+
+For approach:-
+for epoch in range(num_epochs):
+    # Training phase
+    for batch in train_loader:
+        # Generate predictions
+        # Calculate loss
+        # Compute gradients
+        # Update weights
+        # Reset gradients
+    
+    # Validation phase
+    for batch in val_loader:
+        # Generate predictions
+        # Calculate loss
+        # Calculate metrics (accuracy etc.)
+    # Calculate average validation loss & metrics
+    
+    # Log epoch, loss & metrics for inspection

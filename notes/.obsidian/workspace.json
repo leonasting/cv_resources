@@ -1,0 +1,168 @@
+{
+  "main": {
+    "id": "6a1a2ade13ec7b94",
+    "type": "split",
+    "children": [
+      {
+        "id": "c8ea30a8bd119f01",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "efed73d089667f9d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Questions Jovian.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "f6a2b6584cd27cea",
+    "type": "split",
+    "children": [
+      {
+        "id": "aa3658eb1e08649d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "02c1fcaaadc05514",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "5481603c5d96f81a",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "3f40aa27007e436e",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "565ca3cb4ad539a4",
+    "type": "split",
+    "children": [
+      {
+        "id": "32e1ba7af08e9af2",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c7085f7c4a217b53",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Questions Jovian.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "f3a98340400dc60d",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Questions Jovian.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "476c281345559373",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "2f8b45774960f154",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Questions Jovian.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "efed73d089667f9d",
+  "lastOpenFiles": [
+    "7.Resnet CIFAR.md",
+    "Questions Jovian.md",
+    "Question Types.md",
+    "code sample.md",
+    "codes samples",
+    "Slot 1.md",
+    "6.CIFAR CNN.md",
+    "5.MNIST Feedforward.md",
+    "4.MNIST logistic.md",
+    "3.Linear regression.md",
+    "1.Torch Basics.md",
+    "2.OpenCV.md",
+    "images",
+    "Pasted image 20231203234720.png",
+    "images/Pasted image 20231203234729.png",
+    "Reading a Video.md"
+  ]
+}
